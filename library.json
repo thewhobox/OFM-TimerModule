@@ -1,0 +1,17 @@
+{
+    "name": "OFM-TimerModule",
+    "version": "0.0.1",
+    "dependencies": { },
+    "description": "Timer functionality, used in OpenKNX projects",
+    "homepage": "https://openknx.de",
+    "authors": {
+        "name": "OpenKNX",
+        "email": "info@openknx.de",
+        "url": "https://openknx.de",
+        "maintainer": true
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/OpenKNX/OFM-TimerModule"
+    }
+}
