@@ -136,10 +136,10 @@ void TimerModule::processInputKo(GroupObject &ko)
 {
     uint16_t koNum = ko.asap();
 
-    #ifdef BASE_KoOffset
-    if(koNum >= BASE_KoOffset && koNum < BASE_KoOffset + BASE_KoBlockSize)
+    #ifdef BASE_Share_KoOffset
+    if(koNum >= BASE_Share_KoOffset && koNum < BASE_Share_KoOffset + BASE_Share_KoBlockSize)
     {
-        koNum = koNum - BASE_KoOffset;
+        koNum = koNum - BASE_Share_KoOffset;
     }
     #endif
 
