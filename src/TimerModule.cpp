@@ -62,7 +62,7 @@ const std::string TimerModule::name()
 //will be displayed in Command Infos 
 const std::string TimerModule::version()
 {
-    return "";
+    return MODULE_TimerModule_Version;
 }
 
 void TimerModule::setup()
